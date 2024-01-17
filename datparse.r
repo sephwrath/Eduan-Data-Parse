@@ -40,7 +40,7 @@ for (fName in files) {
       
       # loop through each of the lines in the file
       for(line in dataChunk) {
-            # ignore the LB Lines - next exists the current iteration of the loop and gets the next line
+            # ignore the LB Lines - next exits the current iteration of the loop and gets the next line
             if (startsWith(line, "LB,")) next
             
             # use TR lines to set the tag name
